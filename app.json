@@ -1,24 +1,15 @@
 {
-  "expo": {
-    "name": "QuantSignal",
-    "slug": "quantsignal",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.quantsignal"
+  "cli": {
+    "version": ">= 5.0.0"
+  },
+  "build": {
+    "internal": {
+      "developmentClient": false,
+      "distribution": "internal"
     },
-    "android": {
-      "package": "com.anonymous.quantsignal",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+    "preview": {
+      "distribution": "internal"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "production": {}
   }
 }
