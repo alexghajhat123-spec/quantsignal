@@ -8,6 +8,11 @@
     },
     "android": {
       "package": "com.anonymous.quantsignal"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8b08e24c-9f89-4fa2-9b2f-4c57805d7627"
+      }
     }
   }
 }
