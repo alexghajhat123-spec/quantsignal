@@ -1,13 +1,18 @@
 {
-  "expo": {
-    "name": "QuantSignal",
-    "slug": "quantsignal",
-    "version": "1.0.0",
-    "ios": {
-      "bundleIdentifier": "com.anonymous.quantsignal"
+  "cli": {
+    "version": ">= 5.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
     },
-    "android": {
-      "package": "com.anonymous.quantsignal"
-    }
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
   }
 }
